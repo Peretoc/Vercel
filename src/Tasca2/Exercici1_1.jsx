@@ -1,11 +1,12 @@
 import { useState } from "react";
 import imatge1 from "./assets/img1.jpg";
-import imatge2 from "./assets/img2.jpg";
-import imatge3 from "./assets/img3.jpg";
-import imatge4 from "./assets/img4.jpg";
+import imatge2 from "./assets/img2.png";
+import imatge3 from "./assets/img3.png";
+import imatge4 from "./assets/img4.png";
+import imgtge5 from "./assets/img5.png";
 
 function Exercici1_1() {
-    const [imatges] = useState([imatge1, imatge2, imatge3, imatge4]);
+    const [imatges] = useState([imatge1, imatge2, imatge3, imatge4, imatge5]);
 
     return (
         <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
