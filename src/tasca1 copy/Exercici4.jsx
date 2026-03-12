@@ -1,6 +1,6 @@
 import { useState } from "react";
 import imatge1 from "../assets/danipot.png";
-import imatge2 from "../assets/egnar.png";
+import imatge2 from "../assets/edgar.png";
 
 function Exercici4() {
   const [canviada, setCanviada] = useState(false);
