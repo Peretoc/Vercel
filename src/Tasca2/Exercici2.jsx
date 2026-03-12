@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-function Exercici2() {
+function Exercici2_2() {
   const [color, setColor] = useState("gray");
 
   return (
     <div>
-      <h2>Exercici 2</h2>
+      <h2>Exercici 2.2</h2>
 
       <div
         style={{
