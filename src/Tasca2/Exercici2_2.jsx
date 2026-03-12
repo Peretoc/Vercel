@@ -24,4 +24,4 @@ function Exercici2_2() {
   );
 }
 
-export default Exercici2;
+export default Exercici2_2;
