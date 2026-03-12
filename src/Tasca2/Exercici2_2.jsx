@@ -15,7 +15,7 @@ function Exercici2_2() {
     setIndex((prev) => (prev === 0 ? fotos.length - 1 : prev - 1));
   };
   return (
-    <div style={{ textAlign: "center", padding: "20px", fontFamily: "Arial" }}>
+    <div style={{ textAlign: "center", padding: "20px"}}>
       <h2>Exercici 2.2 - Visor de Fotos</h2>
 
       {/* Contenidor de la imatge */}
