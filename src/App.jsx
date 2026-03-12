@@ -2,8 +2,8 @@ import Exercici1 from "./tasca1/Exercici1";
 import Exercici2 from "./tasca1/Exercici2";
 import Exercici3 from "./tasca1/Exercici3";
 import Exercici4 from "./tasca1/Exercici4";
-import Exercici1_1 from "./Tasca2/Exercici1.2";
-import Exercici2_1 from "./Tasca2/Exercici2.2";
+import Exercici1_1 from "./Tasca2/Exercici1_2";
+import Exercici2_1 from "./Tasca2/Exercici2_2";
 
 
 function App() {
