@@ -22,9 +22,9 @@ function application() {
 
 function Component({imatge, títol, textdelparàgraf, textdelprimerbotó, enllaçdelprimerbotó, textdelsegonbotó, enllaçdelsegonbotó}) {
     return (
-            <div style={{display: "flex", height:"500px", border: "1px solid black", margin: "10px", flexDirection: "column", alignItems: "center", width: "400px", overflow:"hidden", borderRadius:"20px"}}>
+            <div style={{display: "flex", height:"500px", border: "1px solid black", margin: "10px", flexDirection: "column", alignItems: "center", width: "460px", overflow:"hidden", borderRadius:"20px"}}>
                 <img src={imatge} alt="" style={{width: "100%", height: "250px", objectFit: "cover"}} />
-                <div style={{padding:"10px 10px 0px 10px"}}>
+                <div style={{padding:"10px 10px 0px 25px"}}>
                     <p style={{margin: "0 0 0 0", fontSize:"50px"}}>{títol}</p>
                     <p style={{margin:"0 0 0 0", fontSize:"20px"}}>{textdelparàgraf}</p>
                 </div>
