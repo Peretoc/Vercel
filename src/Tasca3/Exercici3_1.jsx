@@ -2,7 +2,7 @@ import { useState } from "react";
 import woods from "../assets/woods.jpg";
 import shore from "../assets/Shoreline.jpg";
 import customs from "../assets/customs.jpg";
-import factory from "../assets/factory.jpg";
+import factory from "../assets/Factory.jpg";
 import labs from "../assets/labs.jpg";
 
 
