@@ -12,5 +12,4 @@ function Exercici1() {
     </div>
   );
 }
-
 export default Exercici1;
