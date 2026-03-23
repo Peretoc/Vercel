@@ -11,8 +11,8 @@ function Exercici1_1() {
 
     return (
         <div>
-            <h1 style={{display: "flex", justifyContent: "center"}}>Exercici 1.1</h1>
-            <div style={{ display: "grid", gridTemplateColumns: "200px 200px 200px ",justifyContent: "space-between", gap: "10px", backgroundColor: "lightgray", padding: "20px", borderRadius: "8px", margin: "20px auto", width: "80%", }}>
+            <h1 style={{display: "flex", justifyContent: "center"}}>Exercici 2.1</h1>
+            <div style={{ display: "grid", gridTemplateColumns: "200px 200px 200px ",justifyContent: "space-between", gap: "10px", backgroundColor: "lightgray", padding: "20px", borderRadius: "8px", margin: "20px auto", width: "100%", }}>
                 {imatges.map((imatge, index) => (
                     <div key={index}>
                         <img 
