@@ -8,6 +8,7 @@ import Exercici2_2 from "./Tasca2/Exercici2_2";
 import Exercici3_1 from "./Tasca3/Exercici3_1";
 import Exercici4_1 from "./Tasca4/Exercici4_1";
 import Exercici4_2 from "./Tasca4/Exercici4_2";
+import Exercici5 from "./Tasca5/Exercici5";
 import "./menu.css"
 
 function Menu() {
@@ -33,6 +34,8 @@ function Menu() {
         return <Exercici4_1 />;
       case 9:
         return <Exercici4_2 />;
+      case 10:
+        return <Exercici5 />;
       default:
         return null;
     }
@@ -70,6 +73,9 @@ function Menu() {
           </button>
           <button className="boton" onClick={() => setSelectedTask(9)}>
             Tasca 4.2
+          </button>
+          <button className="boton" onClick={() => setSelectedTask(10)}>
+            Tasca 5
           </button>
         </div>
 
