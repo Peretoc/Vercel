@@ -48,16 +48,16 @@ function Menu() {
         
         <div className="botones">
           <button className="boton" onClick={() => setSelectedTask(1)}>
-            Tasca 1
+            Tasca 1.1
           </button>
           <button className="boton" onClick={() => setSelectedTask(2)}>
-            Tasca 2
+            Tasca 1.2
           </button>
           <button className="boton" onClick={() => setSelectedTask(3)}>
-            Tasca 3
+            Tasca 1.3
           </button>
           <button className="boton" onClick={() => setSelectedTask(4)}>
-            Tasca 4
+            Tasca 1.4
           </button>
           <button className="boton" onClick={() => setSelectedTask(5)}>
             Tasca 2.1
